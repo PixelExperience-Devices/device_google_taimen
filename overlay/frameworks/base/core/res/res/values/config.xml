@@ -113,6 +113,9 @@
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">13</integer>
 
+    <!-- Define that we use a higher screen ratio (18:9) than standard (16:9) -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
     <!-- Default screen brightness for VR setting. Default value: 0x8c => 140. -->
     <integer name="config_screenBrightnessForVrSettingDefault">140</integer>
 
