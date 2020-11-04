@@ -527,6 +527,18 @@
       "Node": "CPULittleClusterMinFreq",
       "Duration": 0,
       "Value": "0"
+    },
+    {
+      "PowerHint": "Flipendo",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "1555200"
+    },
+    {
+      "PowerHint": "Flipendo",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "1344000"
     }
   ]
 }
