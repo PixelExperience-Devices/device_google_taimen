@@ -38,7 +38,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit product specific makefiles
 $(call inherit-product, device/google/taimen/device.mk)
-$(call inherit-product-if-exists, vendor/google_devices/taimen/proprietary/device-vendor.mk)
+$(call inherit-product, vendor/google/taimen/taimen-vendor.mk)
 
 PRODUCT_COPY_FILES += \
     device/google/taimen/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
