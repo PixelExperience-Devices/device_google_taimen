@@ -89,7 +89,7 @@ PRODUCT_PROPERTY_OVERRIDES += aaudio.hw_burst_min_usec=2000
 
 # Wifi configuration file
 PRODUCT_COPY_FILES += \
-    device/google/taimen/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
+    device/google/taimen/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 
 # touchscreen configuration
 PRODUCT_COPY_FILES += \
