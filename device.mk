@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     device/google/taimen/configs/nfc/libnfc-nxp.taimen.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 PRODUCT_COPY_FILES += \
-    device/google/taimen/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    device/google/taimen/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 PRODUCT_COPY_FILES += \
     device/google/taimen/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
