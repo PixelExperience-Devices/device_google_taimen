@@ -1,0 +1,7 @@
+# Pixel identification
+ro.build.fingerprint=google/taimen/taimen:11/RP1A.201005.004.A1/6934943:user/release-keys
+ro.product.manufacturer=Google
+ro.product.device=taimen
+ro.product.brand=google
+ro.product.name=taimen
+ro.product.model=Pixel 2 XL

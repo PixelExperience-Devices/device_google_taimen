@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+LOCAL_PATH := device/google/taimen
+
+TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
+
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
