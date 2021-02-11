@@ -17,6 +17,8 @@
 TARGET_BOOTLOADER_BOARD_NAME := taimen
 DEFAULT_LOW_PERSISTENCE_MODE_BRIGHTNESS := 0x0000008c
 
+TARGET_KERNEL_CONFIG := taimen_defconfig
+
 BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200,n8 earlycon=msm_serial_dm,0xc1b0000
 
 include device/google/wahoo/BoardConfig.mk
