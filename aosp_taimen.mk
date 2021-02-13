@@ -34,6 +34,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit product specific makefiles
