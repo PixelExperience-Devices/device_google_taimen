@@ -1,5 +1,5 @@
 # Pixel identification
-ro.build.fingerprint=google/taimen/taimen:11/RP1A.201005.004.A1/6934943:user/release-keys
+ro.build.fingerprint=google/taimen/taimen:8.1.0/OPM1.171019.021/4565141:user/release-keys
 ro.product.manufacturer=Google
 ro.product.device=taimen
 ro.product.brand=google
