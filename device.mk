@@ -20,6 +20,8 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 PRODUCT_HARDWARE := taimen
 
+PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
+
 # To build taimen specific modules e.g. librecovery_ui_taimen.
 PRODUCT_SOONG_NAMESPACES += device/google/taimen
 
