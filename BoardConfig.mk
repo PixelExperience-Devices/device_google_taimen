@@ -48,3 +48,13 @@ TARGET_RECOVERY_UI_LIB := \
 # VTS DTBO Verification. This kernel cmdline parameter should be added by the bootloader
 # for all future devices.
 BOARD_KERNEL_CMDLINE += androidboot.dtbo_idx=12
+
+# Board uses A/B OTA.
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    system \
+    vbmeta \
+    dtbo \
+    vendor
