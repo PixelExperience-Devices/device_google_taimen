@@ -84,7 +84,7 @@ extern "C" {
         "cmnlib64", "devcfg", "dtbo", "hosd", "hyp", "laf", "keymaster", \
         "lockbooter", "msadp", "pmic", "rpm", "storsec", \
         "trusty", "tz", "vbmeta"
-#define AB_PTN_LIST PTN_SWAP_LIST, "boot", "system", "vendor", "modem"
+#define AB_PTN_LIST PTN_SWAP_LIST, "boot", "system", "vendor", "modem", "product", "system_ext"
 #define BOOT_DEV_DIR    "/dev/block/bootdevice/by-name"
 
 /******************************************************************************

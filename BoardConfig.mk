@@ -22,7 +22,11 @@ BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200,n8 earlycon=msm_serial_dm,0xc1b00
 include device/google/wahoo/BoardConfig.mk
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 41943040
+BOARD_SYSTEM_EXTIMAGE_PARTITION_SIZE := 524288000
+BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_AVB_ENABLE := true
+
+TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
 # sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/taimen/sepolicy
@@ -57,4 +61,6 @@ AB_OTA_PARTITIONS += \
     system \
     vbmeta \
     dtbo \
-    vendor
+    vendor \
+    product \
+    system_ext
