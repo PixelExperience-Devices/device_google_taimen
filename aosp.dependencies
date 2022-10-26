@@ -6,7 +6,7 @@
    {
       "repository":"vendor_google_taimen",
       "target_path":"vendor/google/taimen",
-      "branch":"twelve",
+      "branch":"thirteen",
       "remote":"pixel-devices-blobs"
    }
 ]
