@@ -1,8 +1,11 @@
--app/datastatusnotification/datastatusnotification.apk
--app/ims/ims.apk
--app/uceShimService/uceShimService.apk
--app/vzw_msdc_api/vzw_msdc_api.apk
--app/QAS_DVC_MSP_VZW/QAS_DVC_MSP_VZW.apk
+## All blobs from this list, unless pinned and noted as otherwise,
+##  are from RP1A.201005.004.A1, Dec 2020.
+
+app/QAS_DVC_MSP_VZW/QAS_DVC_MSP_VZW.apk
+app/datastatusnotification/datastatusnotification.apk
+app/ims/ims.apk
+app/uceShimService/uceShimService.apk
+app/vzw_msdc_api/vzw_msdc_api.apk
 bin/move_widevine_data.sh
 etc/cne/Nexus/ATT/ATT_profiles.xml
 etc/cne/Nexus/ROW/ROW_profiles.xml
@@ -51,9 +54,9 @@ lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so|73cc25387a079f3743674f9861953f753a94802b
 lib64/librcc.so
 lib64/vendor.qti.qcril.am@1.0.so
--priv-app/CNEService/CNEService.apk
--priv-app/OemDmTrigger/OemDmTrigger.apk
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+priv-app/CNEService/CNEService.apk
+priv-app/OemDmTrigger/OemDmTrigger.apk
+priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 product/etc/CarrierSettings/airtel_in.pb
 product/etc/CarrierSettings/apt_tw.pb
 product/etc/CarrierSettings/att5g_us.pb
@@ -172,15 +175,15 @@ product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
 product/lib64/libaptXHD_encoder.so
 product/lib64/libaptX_encoder.so
--product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
--product/priv-app/DevicePersonalizationPrebuiltPixel2/DevicePersonalizationPrebuiltPixel2.apk;PRESIGNED
--product/priv-app/DiagMon/DiagMon.apk
--product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel2/DevicePersonalizationPrebuiltPixel2.apk;PRESIGNED
+product/priv-app/DiagMon/DiagMon.apk
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 product/priv-app/EuiccSupportPixel/esim0.img
--product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
--product/priv-app/HardwareInfo/HardwareInfo.apk
--product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
--product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
+product/priv-app/HardwareInfo/HardwareInfo.apk
+product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
+product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
 product/priv-app/MyVerizonServices/lib/arm64/libakuaf.so
 product/priv-app/MyVerizonServices/lib/arm64/libmotricity.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
