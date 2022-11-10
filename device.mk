@@ -47,10 +47,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=560 \
 
-# Bluetooth
-PRODUCT_PROPERTY_OVERRIDES += \
-    bluetooth.device.default_name=Pixel 2 XL
-
 PRODUCT_COPY_FILES += \
     device/google/taimen/configs/nfc/libnfc-nxp.taimen.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
