@@ -170,10 +170,8 @@ product/etc/permissions/com.verizon.apn.xml
 product/etc/permissions/com.verizon.services.xml
 product/etc/permissions/features-verizon.xml
 product/etc/permissions/obdm_permissions.xml
-product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/permissions/split-permissions-google.xml
 product/etc/permissions/vzw_mvs_permissions.xml
-product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/nexus.xml
 product/etc/sysconfig/pixel_experience_2017.xml
 product/etc/sysconfig/whitelist_com.android.omadm.service.xml
@@ -190,7 +188,6 @@ product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 product/priv-app/ConnMO/ConnMO.apk
 product/priv-app/DCMO/DCMO.apk
 product/priv-app/DMService/DMService.apk
-product/priv-app/DevicePersonalizationPrebuiltPixel2/DevicePersonalizationPrebuiltPixel2.apk;PRESIGNED
 product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
@@ -209,7 +206,6 @@ product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 product/priv-app/obdm_stub/obdm_stub.apk;PRESIGNED
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/etc/permissions/com.android.omadm.radioconfig.xml
-system_ext/etc/permissions/privapp-permissions-google-se.xml
 system_ext/framework/RadioConfigLib.jar
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 system_ext/priv-app/CarrierSetup/CarrierSetup.apk
